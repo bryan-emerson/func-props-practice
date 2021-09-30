@@ -8,11 +8,15 @@ export default function Parent() {
     setCount(count +1)
   }
 
+  let decrement = () => {
+    setCount(count -1 )
+  }
+
   return (
     <div>
       <p>taco party...how many tacos?!</p>
       {count}
-      <Child plus={increment}/>
+      <Child plus={increment} minus={decrement}/>
     </div>
   )
 }

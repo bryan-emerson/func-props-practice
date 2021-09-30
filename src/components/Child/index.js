@@ -5,7 +5,7 @@ export default function Child(props) {
   return (
     <div>
       <button onClick={ props.plus }>pressy pressy up</button>
-      <button>pressy pressy down</button>
+      <button onClick={ props.minus }>pressy pressy down</button>
     </div>
   )
 }
