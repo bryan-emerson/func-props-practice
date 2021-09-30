@@ -1,0 +1,9 @@
+.child {
+  border: 3px solid red;
+  background-color: brown;
+  margin: 10px;
+}
+
+.button {
+  margin-bottom: 15px;
+}
